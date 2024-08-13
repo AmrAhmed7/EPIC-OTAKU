@@ -25,7 +25,7 @@
 
 
 .epic{
-  width: 10%;
+  width: 8%;
 }
 
 .logo-on{
@@ -112,6 +112,7 @@ user-select: none  ;
   
   .active, .dot:hover {
     background-color: #717171;
+    transform: scale(1.2);
   }
   
     .fade {
@@ -171,7 +172,7 @@ user-select: none  ;
       height: 100%;
       width: 100%;
       opacity: 0;
-      transition: .5s ease;
+      transition: .5s ease-in-out;
       background-color:   #0000009e;
     }
     
@@ -204,6 +205,8 @@ margin-left: 610px;
 }
 .btn:hover{
   background-color: #000000;
+  transition: 0.6s ease;  
+  transform: scale(1.1);
 }
 .copy1, .copy2 {
   color: #B6BBC4;
